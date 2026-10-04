@@ -79,7 +79,7 @@ jobs:
             4. Escribe `triage/labels.txt`: un label por línea, SOLO de esta lista:
                bug, enhancement, question, documentation, gameplay, ui, controls, rendering, performance, priority:high, priority:medium, priority:low
                Reglas: exactamente 1 de tipo (bug/enhancement/question/documentation), entre 0 y 2 de área (gameplay/ui/controls/rendering/performance) y exactamente 1 de prioridad.
-            5. Escribe `triage/diagnosis.md` en ESPAÑOL, en Markdown, con estas secciones (encabezados `###`):
+            5. Escribe `triage/diagnosis.md` en ESPAÑOL, en formato Markdown compatible con GitHub (GitHub Flavored Markdown), porque se publicará tal cual como comentario en el issue. Usa encabezados, listas, tablas, negritas y bloques de código con lenguaje (```js) que GitHub renderice correctamente; no uses HTML ni sintaxis que GitHub no soporte. Estructura con estas secciones (encabezados `###`):
                - Resumen
                - Clasificación (labels elegidos y por qué)
                - Análisis técnico (archivos y funciones implicadas, p. ej. `tryRotate`, `clearLines`, `draw` en `game.js`)
